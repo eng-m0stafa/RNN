@@ -136,5 +136,3 @@ early_stopping = EarlyStopping(monitor='val_loss', patience=3)
 model_fusion.fit(X_fusion, y_fusion, epochs=10, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
 ```
 
-### Summary
-By following these steps, you can implement features for time-series data analysis, anomaly detection, activity recognition, data fusion, and temporal dependencies using the dataset. This approach leverages the strengths of RNNs to analyze complex patterns in smart home environments effectively.
