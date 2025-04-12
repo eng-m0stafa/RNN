@@ -11,7 +11,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load dataset
-data = pd.read_csv('path_to_your_dataset.csv')
+data = pd.read_csv('path_dataset.csv')
 
 # Normalize the data
 scaler = MinMaxScaler()
